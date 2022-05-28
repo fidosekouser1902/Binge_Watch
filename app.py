@@ -109,7 +109,7 @@ def recommend(movie):
         searched.append(new.iloc[i[0]].movie_id)
     s = searched[0]
     movie_list = sorted(
-        list(enumerate(similarity[index])), reverse=True, key=lambda x: x[1])[1:16]
+        list(enumerate(similarity[index])), reverse=True, key=lambda x: x[1])[1:26]
     
     recommended = []
     for i in movie_list:
