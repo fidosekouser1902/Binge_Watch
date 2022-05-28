@@ -1,0 +1,124 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,600,0,-25" />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;600&display=swap" rel="stylesheet">
+<title>Movie Recommender</title>
+<style>
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;  
+  background-image: url(https://images.hdqwalls.com/download/mountains-landscape-dark-nature-4k-i0-1680x1050.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  top: 25%;
+  position: relative;
+  background-color: rgba(123, 123, 123, 0.512);
+  margin: auto;
+  width: 50vw;
+  height: 50vh;
+  border-radius: 5px;
+}
+
+.titleContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.title h1{
+  font-size: 50px;
+  color: #e6e3e3;
+}
+
+.title{
+  padding: 15px;
+  margin: 10px;     
+}
+
+
+.searchBox {
+    background: #9cc5ff9e;
+    border-radius: 40px;
+    padding-left: 10px;
+    
+}
+
+
+.searchButton {
+    color: white;
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    background: white;
+    color : #2f3640;
+    cursor: pointer;
+
+}
+
+.searchInput {
+    border:none;
+    background: none;
+    outline:none;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 440px;
+    padding: 0 6px;
+    height: 50px;
+}
+
+::placeholder{
+  color: #d4d1d1
+}
+
+
+
+</style>
+{% endblock %}
+
+{% block body %}
+<div class="mainContainer">
+    <div class="titleContainer">
+        <div class="title">
+            <h1> Movie Recommender </h1>  
+        </div>
+    </div>
+    <div class="searchContainer">
+      <form class="searchBox" action="/" method="POST">
+          <input class="searchInput" type="text" name="content" id="content" placeholder="Search your favorite movie here .....">
+          <button class="searchButton">
+              <span class="material-symbols-outlined">
+                  search
+              </span>
+          </button>
+      </form>    
+  </div>
+    
+</div>
+{% endblock %}
