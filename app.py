@@ -133,7 +133,7 @@ def index():
             search_genre, search_overview, search_date, search_runtime, search_rating = fetch_moviedetails(id)
             return render_template('test.html', content=content, result=result, search_poster=search_poster, search_genre=search_genre, search_overview=search_overview, search_date=search_date, search_runtime=search_runtime, search_rating=search_rating)
         except:
-            return 'Movie not found .. try again'
+            return 'Sorry! The movie you requested is not in our database. Please check the spelling or try with other movies!'
     else:
         return render_template('index.html')
 
