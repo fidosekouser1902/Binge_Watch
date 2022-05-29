@@ -4,7 +4,7 @@ There is one famous quote related to customer relationship. The summary of this 
 
 Movies, Music, Retail are one of the examples in Recommendation Systems. A recommender system is a subclass of information filtering system that seeks to predict the “rating” or “preference” a user would give to an item. There are many types of Recommendation Systems exists. In this project I worked  on  <b>CONTENT BASED FILTERING & COLLABORATIVE FILTERING .</b>
 
-[## CONTENT-BASED FILTERING:]
+## CONTENT-BASED FILTERING:
 
    Content-based filtering uses item features to recommend other items similar to what the user likes, based on their previous actions. It doesn't require other user's data during recommendations to one user...
 Here, I used  <b>COSINE SIMILARITY</b>  algorithhm to find the similar movies. I utilized the properties and the metadata of  the favorite movie given by the user to suggest other items with similar characteristics. My algorithm analyze a movie’s title, genre, keywords, cast and director to recommend additional movies with similar properties.
