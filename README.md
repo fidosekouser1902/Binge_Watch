@@ -87,4 +87,6 @@ More about Cosine Similarity : [Understanding the Math behind Cosine Similarity]
 ## Resources
 
 -  [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
+-  [Getting Started with a Movie Recommendation System](https://www.kaggle.com/code/ibtesama/getting-started-with-a-movie-recommendation-system#Demographic-Filtering--)
+-  [The Mathematics of Recommendation Systems](https://levelup.gitconnected.com/the-mathematics-of-recommendation-systems-e8922a50bdea)
 
