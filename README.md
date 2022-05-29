@@ -74,11 +74,10 @@ It is called a <b>COLD START.</b> In this project I worked on [Popularity-Based 
 
 ## How to run the project? (Content-Based Filtering)
 
-- [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) 
-- Download this repository to your local machine.
-   - If you download install all the libraries mentioned in the [requirements.txt] file with the command `pip install -r requirements.txt` in terminal/command prompt
-   - Open your terminal/command prompt from your project directory and run the file [`app.py`](https://github.com/fidosekouser1902/Binge_Watch/blob/main/app.py) by           executing the command `python app.py`.
-   - Follow the link you get in the terminal/command prompt
+- [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or Download this repository to your local machine.
+- If you download install all the libraries mentioned in the [requirements.txt] file with the command `pip install -r requirements.txt` in terminal/command prompt
+- Open your terminal/command prompt from your project directory and run the file [`app.py`](https://github.com/fidosekouser1902/Binge_Watch/blob/main/app.py) by         executing the command `python app.py`.
+- Follow the link you get in the terminal/command prompt
 
 ## How Cosine Similarity works?
   Cosine similarity is a metric used to measure how similar the documents are irrespective of their size. Mathematically, it measures the cosine of the angle between two vectors projected in a multi-dimensional space. The cosine similarity is advantageous because even if the two similar documents are far apart by the Euclidean distance (due to the size of the document), chances are they may still be oriented closer together. The smaller the angle, higher the cosine similarity.
