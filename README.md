@@ -24,7 +24,7 @@ Here, I used  <b>COSINE SIMILARITY</b>  algorithhm to find the similar movies. I
 ## COLLABERATIVE FILTERING:
    It depends upon the movie watchers who have similar interests and gives the result based on all the watchers. Here, we gain get two types <b> USER-BASED:</b>  and  <b> ITEM-BASED:</b>
        
-<b>1. USER-BASED:</b>
+[<b>1. USER-BASED:</b>](https://github.com/fidosekouser1902/Binge_Watch/blob/main/User-Based-Collaberative%20filtering.ipynb)
      
    In this algorithm we find the similarity score between users. Based on this similarity score, it then picks out the most similar users and recommends products. For similarity we can make use of PEARSON CORRELATION
 #### Steps for User Based Collaborative Filtering
@@ -41,7 +41,7 @@ Here, I used  <b>COSINE SIMILARITY</b>  algorithhm to find the similar movies. I
    
 This algorithm is useful when the number of users is less. Its not effective when there are a large number of users and it will become computationlly expensive. To overcome this probem there is an algorithm which is less expensive than User Based Collaborative Filtering and i.e. <b>Item Based Collaboraive Filtering</b>.
 
-<b>2. ITEM-BASED:</b>
+[<b>2. ITEM-BASED:</b>](https://github.com/fidosekouser1902/Binge_Watch/blob/main/Item-Based-Collaberative%20filtering.ipynb)
 
    In this algorithm we use the rating of co-rated item to predict the rating on specific item. Here, the algorithm filter the items but instead of taking weighted sum of ratings of <b>"Nearest Neighbors"</b>, we take the weighted sum of <b>"Item Neighbors"</b>.
 
@@ -60,9 +60,9 @@ This algorithm is useful when the number of users is less. Its not effective whe
 And, now comes an another issue.......
 
 What will happen if a new user or a new item is added in the dataset?
-It is called a <b>COLD START.</b> In this project I worked on Popularity Based Recommendation System and try to solve the problem to USER COLD START.
+It is called a <b>COLD START.</b> In this project I worked on [Popularity-Based RecommendationSystem](https://github.com/fidosekouser1902/Binge_Watch/blob/main/Popularity-Based.ipynb) and try to solve the problem to USER COLD START.
 
-## POPULARITY-BASED-RECOMMENDATION SYSTEM:
+## POPULARITY-BASED-RECOMMENDATION SYSTEM :
 
 - User Cold Start means that a user is introduced in the datset. Since there is no history of that user. So one basic approach could be to apply a popularity based strategy i.e. recommend the most popular web series.
   
@@ -76,7 +76,7 @@ It is called a <b>COLD START.</b> In this project I worked on Popularity Based R
 
 1. Clone or download this repository to your local machine.
 2. Install all the libraries mentioned in the [requirements.txt] file with the command `pip install -r requirements.txt`
-3. Open your terminal/command prompt from your project directory and run the file `app.py` by executing the command `python app.py`.
+3. Open your terminal/command prompt from your project directory and run the file [`app.py`](https://github.com/fidosekouser1902/Binge_Watch/blob/main/app.py) by executing the command `python app.py`.
 4. Follow the link you get in the terminal/command prompt
 5. And.....there you go!!!
 
