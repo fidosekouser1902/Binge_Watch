@@ -45,7 +45,7 @@ This algorithm is useful when the number of users is less. Its not effective whe
 
    In this algorithm we use the rating of co-rated item to predict the rating on specific item. Here, the algorithm filter the items but instead of taking weighted sum of ratings of <b>"Nearest Neighbors"</b>, we take the weighted sum of <b>"Item Neighbors"</b>.
 
-#### Steps for User Based Collaborative Filtering
+#### Steps for Item Based Collaborative Filtering
 - Create a sample dictionary of users with web-series/movies and their ratings
 - Create a function to print the unique set of web-series/movies
 - Create a function to implement cosine similarity between two items 
